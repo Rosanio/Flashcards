@@ -1,0 +1,15 @@
+.carousel img {
+  position: relative;
+  left: 30%;
+  right: 30%;
+}
+
+.carousel p {
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
