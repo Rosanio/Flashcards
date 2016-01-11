@@ -1,7 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: 'Pacifico', serif;
+}
+
+
 .carousel img {
   position: relative;
   left: 30%;
   right: 30%;
+  margin-top: 50px;
 }
 
 .carousel .shown {
@@ -33,5 +43,5 @@ img{
 }
 
 .carousel{
-  min-height: 500px;
+  min-height: 400px;
 }
