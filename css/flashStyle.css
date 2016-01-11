@@ -45,3 +45,64 @@ img{
 .carousel{
   min-height: 400px;
 }
+
+#name_conv_front{
+  left: 45%;
+}
+
+#plus_minus_front{
+  left: 51%;
+}
+
+#plus_minus_back{
+  left: 35%;
+}
+
+#func_back{
+  left:32%;
+}
+
+#meth_back{
+  left:35.5%;
+}
+
+#str_front{
+  left: 49.4%;
+}
+
+#str_back{
+  left:36.5%;
+}
+
+#chain_front{
+  left:45%;
+}
+
+#chain_back{
+  left:35.5%;
+}
+
+#alrt_front{
+  left:49%;
+}
+
+#comm_front{
+  left:44%;
+}
+
+#comm_back{
+  left:34%;
+  top:115px;
+}
+
+#para_back{
+  left:37%;
+}
+
+#rtrn_back{
+  left: 34%;
+}
+
+#rtrn_front{
+  left:49%;
+}
