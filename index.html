@@ -6,7 +6,13 @@
     <title>Flashcards</title>
   </head>
   <body>
+
+    <!---HEADER------>
+
     <h1>Welcome to Matt and Jessica's <br>Handy Dandy Lemon Candy Javascript Flashcard Site!</h1>
+
+    <!---Carousel-->
+
     <div class='container'>
       <div id="fc_carousel" class='carousel slide'  data-wrap='false'>
 
@@ -31,11 +37,14 @@
           <li data-target="#fc_carousel" data-slide-to="17"></li>
         </ol>
 
+
+<!--NOTECARDS-->
+
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img src="img/notecard.jpg">
-            <p class="shown">JavaScript</p>
-            <p class="hddn">A high-level, dynamic, untyped, and interpreted<br> programming language</p>
+            <p class="shown" id="js_front">JavaScript</p>
+            <p class="hddn" id="js_back">A high-level, dynamic, untyped, and interpreted<br> programming language</p>
           </div>
           <div class="item">
             <img src="img/notecard.jpg">
@@ -122,8 +131,9 @@
             <p class="shown" id="rtrn_front">Return</p>
             <p class="hddn" id="rtrn_back">A method which returns the result of a function, <br>or the previous line of code</p>
           </div>
-
         </div>
+
+<!--CAROUSEL CONTROLS-->
 
         <a class="left carousel-control"  href="#fc_carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -135,6 +145,8 @@
         </a>
 
 
+<!--RESOURCES-->
+
       </div>
       <h3>For more information check out these resources:</h3>
       <ul>
@@ -145,7 +157,11 @@
       </ul>
     </div>
 
+<!--FOOTER-->
+    <div class="footer">
+      <h4>Copyright 2016 by Matt Rosanio and Jessica Fix</h4>
 
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/flashJS.js"></script>

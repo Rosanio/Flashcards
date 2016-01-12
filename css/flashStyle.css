@@ -7,6 +7,32 @@ h1 {
   font-family: 'Pacifico', serif;
 }
 
+/* =========IMG RESPONSIVE SECTION (more work needed)======================================*/
+
+/*.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 70%;
+  height: 300px;
+}
+
+
+.img-responsive, p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  text-align: center;
+  position: relative;
+  left: 40%;
+}*/
+
+
+/*========CAROUSEL========*/
+
+
 .carousel{
   min-height: 400px;
   background-color: #85e0e0;
@@ -15,7 +41,7 @@ h1 {
 .carousel img {
   position: relative;
   left: 30%;
-  right: 30%;
+  right: 15%;
   margin-top: 50px;
 }
 
@@ -47,6 +73,7 @@ img{
   cursor:pointer;
 }
 
+/*====INDIVIDUAL FLASHCARDS====*/
 
 #name_conv_front{
   left: 45%;
@@ -109,6 +136,7 @@ img{
   left:49%;
 }
 
+/*=====RESOURCES====*/
 
 h3 {
     font-family: 'Pacifico', serif;
@@ -118,4 +146,16 @@ h3 {
 
 ul {
 font-family: 'Titillium Web', sans-serif;
+}
+
+.footer{
+  background-color: #666666;
+  text-align: right;
+  color:white;
+  width:100%;
+  position:absolute;
+  bottom: 0;
+}
+.footer h4{
+  margin-right: 30px;
 }
